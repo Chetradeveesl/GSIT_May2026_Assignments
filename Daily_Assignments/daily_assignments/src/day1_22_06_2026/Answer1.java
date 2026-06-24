@@ -1,0 +1,20 @@
+package day1_22_06_2026;
+
+public class Answer1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		short id=101;
+		char grade='A';
+		boolean result=true;
+		byte age=18;
+		
+		System.out.println("Student id = "+id);
+		System.out.println("Grade = "+grade);
+		System.out.println("Passed = "+result);
+		System.out.println("Age = "+age);
+
+
+	}
+
+}
