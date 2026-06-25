@@ -1,0 +1,34 @@
+package day3_24_06_2026;
+
+import java.util.Scanner;
+
+public class Answer1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the mark:");
+		int marks=sc.nextInt();
+		if(marks>=90&&marks<=100)
+		{
+			System.out.println("Grade A");
+		}
+		else if(marks>=75&&marks<=89)
+		{
+			System.out.println("Grade B");
+		}
+		else if(marks>=60&&marks<=74)
+		{
+			System.out.println("Grade C");
+		}
+		else if(marks>=40&&marks<=59)
+		{
+			System.out.println("Grade D");
+		}
+		else
+		{
+			System.out.println("Fail");
+		}
+	}
+
+}
