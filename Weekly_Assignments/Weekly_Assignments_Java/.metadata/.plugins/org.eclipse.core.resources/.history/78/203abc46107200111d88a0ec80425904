@@ -1,0 +1,22 @@
+package Week1_27_06_2026;
+
+public class Program3_SumOfDigits {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num=4567,sum=0,rem=0;
+		//num=num%10;
+		System.out.println("number="+num);
+		for(;num!=0;num=num/10)
+		{
+			System.out.println("Number in start loop"+num);
+		
+			rem=num%10;
+			sum=sum+num;
+			System.out.println("Number in end loop"+num);
+			System.out.println("Sum of digits in given number"+sum);
+		}
+		System.out.println("Sum of digits is "+sum);
+	}
+
+}

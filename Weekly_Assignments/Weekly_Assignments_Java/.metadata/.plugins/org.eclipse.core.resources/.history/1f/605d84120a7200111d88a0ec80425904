@@ -1,0 +1,17 @@
+package Week1_27_06_2026;
+
+public class Program1_Factorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int fact=6;
+		int num=1;
+		for(num=1;num<5;num++)
+		{
+			fact=fact*num;
+			System.out.println("Factorial of i: "+fact);
+		}
+		System.out.println("Factorial of 6: "+fact);
+	}
+
+}

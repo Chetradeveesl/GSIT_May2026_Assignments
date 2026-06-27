@@ -1,0 +1,16 @@
+package Week1_27_06_2026;
+
+public class Program2_CountDigits {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number=987654,count=0;
+		for(int i=1;i!=0;i++)
+		{
+			if(number%i==0)
+			count++;
+		}
+		System.out.println("Count Digits of "+number+" is "+count);
+	}
+
+}

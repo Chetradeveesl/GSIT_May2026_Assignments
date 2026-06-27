@@ -1,0 +1,17 @@
+package Week1_27_06_2026;
+
+public class Program5_Fibonacci {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n1=0,n2=1,fib=0;
+		for(int i=2;i<=10;i++)
+		{
+			System.out.print(" "+n1);
+			fib=n1+n2;
+			n1=n2;
+			n2=i;
+		}
+	}
+
+}
