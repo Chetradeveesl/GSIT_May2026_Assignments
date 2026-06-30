@@ -1,0 +1,20 @@
+package day4_29_06_2026;
+
+public class Answer1_LargestNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num=59371;
+		int largest=0;
+		for(;num>0;)
+		{
+			num=num%10;
+			if(num>largest)
+				largest=num;
+			num=num/10;
+			System.out.println(num);
+		}
+		System.out.println("Largest number in "+num+" is "+largest);
+	}
+
+}
