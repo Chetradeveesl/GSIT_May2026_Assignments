@@ -1,0 +1,18 @@
+package day5_30_06_2026;
+
+public class Answer1_AlternateUpperCaseLetter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int count=26;
+		int i=0;
+		char upperCase=(char)i;
+		while(i<=count)
+		{
+			if(i%2!=0)
+			System.out.print(upperCase+" ");
+			i++;		
+		}
+	}
+
+}
