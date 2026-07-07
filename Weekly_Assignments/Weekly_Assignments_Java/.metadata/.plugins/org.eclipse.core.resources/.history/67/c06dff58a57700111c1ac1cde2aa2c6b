@@ -1,0 +1,10 @@
+package Week2_04_07_2026;
+
+public class Program3_FrequencyofEachElementInArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
