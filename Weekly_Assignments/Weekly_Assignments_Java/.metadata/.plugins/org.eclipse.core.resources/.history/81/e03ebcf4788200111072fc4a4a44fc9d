@@ -1,0 +1,34 @@
+package Week4_18_07_2026;
+
+class BankAccount
+{
+	final String account_type="Savings";
+	int accountNumber;
+	String accountHolderName;
+	float balance;
+	BankAccount(int accountNumber,String accountHolderName,float balance)
+	{
+		this.accountNumber=accountNumber;
+		this.accountHolderName=accountHolderName;
+		this.balance=balance;
+	}
+	void displayAccountDetails()
+	{
+		System.out.println("Account Details\n----------------");
+		System.out.println("AccountType	:"+account_type);
+		System.out.println("AccountNumber	:"+accountNumber);
+		System.out.println("AccountHolder	:"+accountHolderName);
+		System.out.println("Balance		:"+balance);
+	}
+}
+
+public class Program2_BankAccountUsingFinal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BankAccount b1=new BankAccount(123456789,"Rohan Sharma",85000.0F);
+		b1.displayAccountDetails();
+		b1.account_type="Infosys";
+	}
+
+}

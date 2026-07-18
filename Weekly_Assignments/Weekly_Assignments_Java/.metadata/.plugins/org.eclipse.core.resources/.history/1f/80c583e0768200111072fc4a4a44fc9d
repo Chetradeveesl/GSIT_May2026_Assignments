@@ -1,0 +1,35 @@
+package Week4_18_07_2026;
+
+class Employee
+{
+	static String companyName="ABC Technologies";
+	int empId;
+	String name;
+	float salary;
+	Employee(int empId,String name,float salary)
+	{
+		this.empId=empId;
+		this.name=name;
+		this.salary=salary;
+	}
+	static void displayCompany()
+	{
+		System.out.println("Company Name : "+companyName);
+	}
+	void displayEmployee()
+	{
+		System.out.println("Employee Details\n----------------");
+		System.out.println("EmployeeID : "+empId);
+		System.out.println("Name : "+name);
+		System.out.println("Salary : "+salary);
+	}
+}
+
+public class Program1_EmployeeManagement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
