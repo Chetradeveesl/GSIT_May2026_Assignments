@@ -1,0 +1,22 @@
+package Week5_31_07_2026;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Program5_MissingNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> list=Arrays.asList(1, 2, 4, 6, 7, 9);
+		int n=10;
+		
+		ArrayList<Integer>	resultList=new ArrayList<Integer>();
+		
+		for(int i=1;i<=n;i++)
+		{
+			if(i==list(i))
+				
+		}
+	}
+
+}

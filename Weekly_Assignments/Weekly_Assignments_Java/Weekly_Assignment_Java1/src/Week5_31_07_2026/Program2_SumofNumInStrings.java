@@ -1,0 +1,17 @@
+package Week5_31_07_2026;
+
+public class Program2_SumofNumInStrings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str="10,20,30,40";
+		String[] str2=str.split(",");
+		int sum=0;
+		for(int i=0;i<str2.length;i++)
+		{
+			sum=sum+Integer.parseInt(str2[i]);
+		}
+		System.out.println(sum);
+	}
+
+}

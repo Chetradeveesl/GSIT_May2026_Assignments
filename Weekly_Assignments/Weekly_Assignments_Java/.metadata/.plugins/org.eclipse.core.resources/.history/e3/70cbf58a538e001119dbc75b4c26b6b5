@@ -1,0 +1,30 @@
+package Week5_31_07_2026;
+
+import java.util.List;
+import java.util.Set;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+
+public class Program5_MissingNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> list=Arrays.asList(1, 2, 4, 6, 7, 9);
+		int n=10;
+		
+		Set<Integer> set = new HashSet<>(list);
+		List<Integer> resultList=new ArrayList<Integer>();
+		
+		for(int i=1;i<=n;i++)
+		{
+			if(!set.contains(i))
+			{
+				resultList.add(i);
+			}
+				
+		}
+		System.out.println(resultList);
+	}
+
+}

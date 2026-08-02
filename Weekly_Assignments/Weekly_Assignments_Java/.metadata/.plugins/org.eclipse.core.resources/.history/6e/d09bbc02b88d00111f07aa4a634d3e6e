@@ -1,0 +1,30 @@
+package Week5_31_07_2026;
+
+public class Program1_RemoveDuplicateCharacters {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str="programming";
+		String output="";
+		
+		for(int i=0;i<str.length();i++)
+		{
+			char ch=str.charAt(i);
+			boolean found=false;
+			for(int j=0;j<output.length();j++)
+			{
+				if(ch==output.charAt(j))
+				{
+					found=true;
+					break;
+				}
+			}
+			if(found==true)
+			{
+				output=output+ch;
+			}
+		}
+		System.out.println(output);
+	}
+
+}
