@@ -43,3 +43,13 @@
 2026-08-16 10:57:14.042: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-08-16 10:57:14.042: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-08-16 10:57:24.314: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-21 13:25:48.843: [INFO] CurrentProfilePath: C:\Users\Chetradevee\OneDrive\Desktop\Automation Testing\Assignment\Assignment_Answers\Daily_Assignments\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-21 13:25:48.843: [INFO] Profiles total count: 1
+2026-08-21 13:25:48.844: [INFO] Profile: name=Profile 1 path=C:\Users\Chetradevee\OneDrive\Desktop\Automation Testing\Assignment\Assignment_Answers\Daily_Assignments\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-15T13:31:20.833Z
+2026-08-21 13:25:48.844: [INFO] LastUsedProfileDir: C:\Users\Chetradevee\OneDrive\Desktop\Automation Testing\Assignment\Assignment_Answers\Daily_Assignments\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-21 13:25:48.844: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\Chetradevee\OneDrive\Desktop\Automation Testing\Assignment\Assignment_Answers\Daily_Assignments\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-15T13:31:20.833Z
+2026-08-21 13:25:48.844: [INFO] OnDoneLoading sync enabled: 0
+2026-08-21 13:25:48.844: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-21 13:25:48.844: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-21 13:25:48.844: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-21 13:26:36.866: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

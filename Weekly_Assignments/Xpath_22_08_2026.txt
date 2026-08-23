@@ -1,0 +1,17 @@
+Xpath:
+
+1. //label[text()='Username']/following-sibling::input
+2. //input[@Id='username']/preceding-sibling::label
+3. //div[normalize-space(text())='LOGIN']
+4. //button[contains(text(),'LOGIN')]
+5. //button[contains(normalize-space(.),'SUBMIT')]
+6. //*[translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='  login  ']
+7. //button[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'submit')]
+8. //*[text()='Email verification is required.']/following::input
+9. //label[@for='profile-email']/preceding::h3
+10. //div[text()='Mobile Number']/parent::*/child::input
+11. (//button[@id='register-button']/ancestor::div)[1]
+12. //div[contains(text(),'Registration')]/following-sibling::*
+13. //*[normalize-space(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')) = 'user name']
+14. (//label[contains(text(),'Email')])[1]/following-sibling::input
+15. //button[contains(normalize-space(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')),'login' )]
