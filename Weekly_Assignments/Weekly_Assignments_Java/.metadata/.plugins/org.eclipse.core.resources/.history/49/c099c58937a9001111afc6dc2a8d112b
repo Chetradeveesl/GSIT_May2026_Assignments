@@ -1,0 +1,30 @@
+import org.openqa.selenium.chrome.*;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class Week7_05_09_2026 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://files.wiseapp.live/upload_files/6932afb3c05630afe5a997f1/upload_4016c026-4a28-4037-a1c6-5bbc3d95fd14.html");
+		
+		driver.manage().window().maximize();
+		//Implicit Wait
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.findElement(By.id("foodHeading")).isDisplayed();
+		driver.findElement(By.xpath("//*[text()='Dessert']")).click();
+		driver.findElement(By.xpath("(//button[text()='Add to Cart'])[1]")).click();
+		WebElement cartCount=driver.findElement(By.id("cartCount"));
+		
+		if(Integer.parseInt(cartCount.getText())>0)
+		{
+			driver.findElement(By.id("confirmOrderBtn")).click();
+		}
+	}
+
+}
